@@ -17,7 +17,7 @@ class Sneaker:
          self.size = size
          self.condition = condition
 
-         def __str__(self):
+    def __str__(self):
               """"
               Return a string representation of the Sneaker instance.
               """
