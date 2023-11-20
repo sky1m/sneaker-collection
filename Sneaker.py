@@ -1,4 +1,5 @@
 class Sneaker:
+
     def __init__ (self, brand, model, colorway, release_year, size, condition):
          """
         Parameters:
@@ -21,3 +22,7 @@ class Sneaker:
               Return a string representation of the Sneaker instance.
               """
               return f"{self.brand} {self.model} - {self.colorway}, Size: {self.size}, Released in {self.release_year}, Condition: {self.condition}"
+# Example case:
+if __name__ == "__main__":
+    sneaker1 = Sneaker("Nike", "Air Jordan 1", "Black/Red", 1985, 9, "new")
+    print(sneaker1)
