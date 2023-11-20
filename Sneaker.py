@@ -9,3 +9,15 @@ class Sneaker:
         size (float): Size of the sneaker.
         condition (str): Condition of the sneaker (e.g., new, used).
         """
+         self.brand = brand
+         self.model = model
+         self.colorway = colorway
+         self.release_year = release_year
+         self.size = size
+         self.condition = condition
+
+         def __str__(self):
+              """"
+              Return a string representation of the Sneaker instance.
+              """
+              return f"{self.brand} {self.model} - {self.colorway}, Size: {self.size}, Released in {self.release_year}, Condition: {self.condition}"
